@@ -18,7 +18,6 @@ function convertInSeconds() {
 }
 
 function print() {
-  console.log("entrou");
   document.getElementById("countdown").innerHTML =
     days.toString().padStart(2, "0") +
     " " +
